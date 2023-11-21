@@ -1,0 +1,207 @@
+.fast
+{
+    color: red;
+}.zeit
+{
+    color: green;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.container{
+    border: 1px solid orange;
+    width: 80vmin;
+    padding: 30px 30px;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/*--------------------------------------------------*/
+/*-----------Überschrift und Zwei Button------------*/
+/*--------------------------------------------------*/
+
+.container .wrapper{
+    /*border: 1px solid green;
+    border-bottom: 1px solid #d4dbe5;*/
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .wrapper h2{
+    font-weight: 600;
+    font-size: 1.31rem;
+    padding: 1rem 1.75rem;
+}
+
+.container .wrapper .toplinks{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /*border: 1px solid green;*/
+}
+
+.container .wrapper .toplinks a {
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0px 0px 5px 10px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    
+}
+
+.container .wrapper .toplinks a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+/*--------------------------------------------------*/
+/*----Verstoß mit label und select und textarea-----*/
+/*--------------------------------------------------*/
+
+
+.container .teil1{
+    /*border: 1px solid green;*/
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .teil1 label{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .teil1 select{
+    width: 100%;
+    /*padding: 10px;*/
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    outline: none; /* Entfernt den blauen Umriss im Chrome und Firefox */
+    appearance: none; /* Entfernt den Standard-Pfeil in Firefox */
+    background: url('assets/down-arrow-3.png') no-repeat right center; /* Fügt einen benutzerdefinierten Pfeil hinzu */
+    background-size: 20px; /* Größe des benutzerdefinierten Pfeils */
+    background-position: right 10px center; /* Verschiebt das Bild 10px nach links */
+}
+
+.container .teil1 textarea{
+
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    resize: none;
+}
+
+/*--------------------------------------------------*/
+/*-----------Überschrift und Zwei Button------------*/
+/*--------------------------------------------------*/
+
+.container .teil2{
+    /*border: 1px solid green;*/
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .teil2 label{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .teil2 select{
+    width: 100%;
+    /*padding: 10px;*/
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    outline: none; /* Entfernt den blauen Umriss im Chrome und Firefox */
+    appearance: none; /* Entfernt den Standard-Pfeil in Firefox */
+    background: url('assets/down-arrow-2.png') no-repeat right center; /* Fügt einen benutzerdefinierten Pfeil hinzu */
+    background-size: 20px; /* Größe des benutzerdefinierten Pfeils */
+    background-position: right 10px center; /* Verschiebt das Bild 10px nach links */
+}
+
+
+.container .teil2 input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    resize: none;
+}
+
+
+/*--------------------------------------------------*/
+/*-----------Dropown------------*/
+/*--------------------------------------------------*/
+
+
+.container .dropdown{
+    /*border: 1px solid green;*/
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .dropdown .more{
+    width: 5rem;
+    color: black;
+    border-radius: 5px;
+    margin: 0px 0px 5px 10px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+
+.container .dropdown label{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .dropdown input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    resize: none;
+}
+
+
